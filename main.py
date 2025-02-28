@@ -69,7 +69,7 @@ def detect_plant():
     st.header("Medicinal Plant Detection")
     test_image = st.file_uploader("Choose an Image:")
     if test_image is not None:
-        st.image(test_image, use_column_width=True, caption="Selected Image")
+        st.image(test_image, use_container_width=True, caption="Selected Image")
 
         if st.button("Predict", key="predict_button"):
             image = Image.open(test_image)
