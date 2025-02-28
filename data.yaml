@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['Azadiractha Indica', 'CALOTROPIS', 'Calotropis', 'LEAVS', 'OLEANDER']
+
+roboflow:
+  workspace: srilakshmi-lingineni
+  project: medical_plants
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/srilakshmi-lingineni/medical_plants/dataset/1
